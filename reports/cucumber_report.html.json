@@ -1,0 +1,119 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "hotel-scraper;scrap-website-to-get-information-that-offers-the-lowest-listing-price-for-a-5-night-stay",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Scrap website to get information that offers the lowest listing price for a 5-night stay",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 4171095100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "I select destination city as \"Goa\"",
+            "match": {
+              "location": "src\\tests\\steps\\scrapersteps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 193010399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "I select future check-in date as \"2024-09-08\" and future check-out date as \"2024-09-12\"",
+            "match": {
+              "location": "src\\tests\\steps\\scrapersteps.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 691463200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I select the number of guest",
+            "match": {
+              "location": "src\\tests\\steps\\scrapersteps.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 99266499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I click on Search button",
+            "match": {
+              "location": "src\\tests\\steps\\scrapersteps.ts:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5135127199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I apply filter for 5 star rating on hotels",
+            "match": {
+              "location": "src\\tests\\steps\\scrapersteps.ts:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7798072500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I get the list of all the name of hotels and the website that offers lowest price",
+            "match": {
+              "location": "src\\tests\\steps\\scrapersteps.ts:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 740370699
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 396045400
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario",
+        "retried": 0
+      }
+    ],
+    "id": "hotel-scraper",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Hotel scraper",
+    "tags": [],
+    "uri": "src\\tests\\features\\scraper.feature"
+  }
+]

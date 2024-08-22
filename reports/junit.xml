@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<testsuite failures="0" skipped="0" name="cucumber-js" time="19.224450995999998" tests="1">
+  <testcase classname="Hotel scraper" name="Scrap website to get information that offers the lowest listing price for a 5-night stay" time="19.224450995999998">
+    <system-out><![CDATA[When I select destination city as "Goa"...................................passed
+And I select future check-in date as "2024-09-08" and future check-out ...passed
+And I select the number of guest..........................................passed
+And I click on Search button..............................................passed
+And I apply filter for 5 star rating on hotels............................passed
+Then I get the list of all the name of hotels and the website that offe...passed]]></system-out>
+  </testcase>
+</testsuite>
